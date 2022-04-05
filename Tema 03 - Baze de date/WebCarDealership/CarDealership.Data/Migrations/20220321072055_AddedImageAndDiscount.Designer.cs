@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarDealership.Data.Migrations
 {
     [DbContext(typeof(DealershipDbContext))]
-    [Migration("20220316172422_AddAmountFieldsToCarOfferAndOrder")]
-    partial class AddAmountFieldsToCarOfferAndOrder
+    [Migration("20220321072055_AddedImageAndDiscount")]
+    partial class AddedImageAndDiscount
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -33,6 +33,13 @@ namespace CarDealership.Data.Migrations
 
                     b.Property<int>("AvailableStock")
                         .HasColumnType("int");
+
+                    b.Property<decimal>("DiscountPercentage")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Make")
                         .IsRequired()
