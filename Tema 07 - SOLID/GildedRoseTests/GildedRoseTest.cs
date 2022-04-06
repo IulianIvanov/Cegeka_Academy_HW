@@ -14,9 +14,9 @@ namespace GildedRoseTests
             IList<Item> Items = new List<Item>();
             Items.Add(item);
 
-            GildedRose app = new GildedRose(Items);
+            var app = new GildedRose(Items);
             app.UpdateQuality();
-            Assert.Equal("fixme", Items[0].Name);
+            Assert.Equal("itemNou", Items[0].Name);
         }
     }
 }
