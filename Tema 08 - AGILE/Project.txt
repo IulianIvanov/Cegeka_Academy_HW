@@ -1,0 +1,86 @@
+Agile project
+
+
+About project
+
+It is an entertainment application through which users can give their opinions about the movies seen, in order to save from the time of other people who would watch a movie classified as "weak" or which is not to their taste.
+
+The films are already uploaded in the application, with a short presentation and a section where people can express their opinions and give a grade. The most voted film becomes "movie of the week". The user cannot upload movies other than the existing ones. Other users can also vote for others.
+
+Users are ordinary people, looking for a movie to watch, who do not want to waste time with a poor movie or what is not what it seems in the description.
+Investors can be directors, producers, or even acotrs who want to help develop the platform from a marketing purpose.
+The competition is pretty fierce. Some of the main sites that have developed a similar model are: IMDb, TMDB, Rotten Tomatoes, etc.
+
+User stories
+
+1. As a user 
+   I want to create a profile 
+   So that I can have a personalized account
+
+   Given that I have entered the singed up credentials
+   When I click the sign up button
+   Then I create an account to log in.
+
+   Given that I have entered the log in credential
+   When I click the edit button
+   Then I can personalized my account with nickname, profile picture, description etc.	
+
+2. As a user 
+   I want to earn badges and points 
+   So that I can buy different items from the store
+
+   Given that I already have an account
+   when I make and review on a movie
+   Then I can earn points from other users when they like or comment my review
+ 
+   Given that I already have an amount of points
+   When I enter the store
+   Then I can spend my points for different cosmetic items
+
+3. As a user 
+   I want to give scores 
+   So that I can expres my opinion and see an overall score of a movie
+
+   Given that I already have an account
+   when I give a score to a movie
+   Then I can see on my personal page all my scored movies 
+
+   Given that I already have an account
+   when I want to seatch for a movie
+   Then I can sort them on the overall score
+
+4. As a user 
+   I want add other users on my firend list
+   So that I can easily make friends and sent them messages
+
+   Given that I already have an account
+   when I click on the add friend button on other users profiles
+   Then I add send them an invitiaton 
+
+   Given that I already have an account
+   when I click on the sent message button
+   Then I can sent them a mail
+
+5. As a user 
+   I want to be able so makea group
+   So that I can easily find other users that have the same interets as me
+
+   Given that I already have an account
+   when I click on the sent message button
+   Then I can make a group with a name and description
+
+   Given that I already have an account
+   when I click on the search group button
+   Then I can search for a group basen on its name
+
+6. As an admin
+   I want to add movies and remove users
+   So that I can manage the application over time
+
+   Given that I am an admin
+   when I see a violation of rules from a user
+   Then I can apply some sanctions on the user 
+
+   Given that I am an admin
+   when I want to edit the movies list
+   Then I can use special buttons to add, edit or delete a movie 
