@@ -3,9 +3,13 @@ Agile project
 
 About project
 
-It is an entertainment application through which users can give their opinions about the movies seen, in order to save from the time of other people who would watch a movie classified as "weak" or which is not to their taste.
+It is an entertainment application through which users can give their opinions about the movies
+seen, in order to save from the time of other people who would watch a movie classified as "weak"
+or which is not to their taste.
 
-The films are already uploaded in the application, with a short presentation and a section where people can express their opinions and give a grade. The most voted film becomes "movie of the week". The user cannot upload movies other than the existing ones. Other users can also vote for others.
+The films are already uploaded in the application, with a short presentation and a section where people  
+can express their opinions and give a grade. The most voted film becomes "movie of the week". The user
+cannot upload movies other than the existing ones. Other users can also vote for others.
 
 Users are ordinary people, looking for a movie to watch, who do not want to waste time with a poor movie or what is not what it seems in the description.
 Investors can be directors, producers, or even acotrs who want to help develop the platform from a marketing purpose.
